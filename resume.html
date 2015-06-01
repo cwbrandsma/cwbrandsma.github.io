@@ -6,7 +6,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link href="./css/ven/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 <style>
-	.section-title {padding-top: 4px;border-top: 1px #888 solid;color:#999;}
+	header.jumbotron {background-color:#428bca;color:#fff;}
+	.contact-title {width:75px;display:inline-block;}
+	a.contact-link {color:#fff;}
+	
+	section {padding-bottom: 8px;}
+	.section-title { /*border-top: 1px #888 solid;*/color:#999;}
+	.container :first-child .section-title {border-top: none;}
 	.company {}
 	.company-title {font-size:140%;}
 	.company-projects li {list-style: none;}
@@ -23,32 +29,38 @@
 	.project-tech-list li {padding:0;}
 	.project-tech-list li:after { content: ','; margin-left: 0em; margin-right: .100em;}
 	.project-tech-list :last-child:after { content: '';}
+	
+	.personal-tech {}
+		.personal-tech .project-tech-title {width: 130px; display:inline-block;}
+		.personal-tech .project-tech-list {display:inline;}
 </style>
 </head>
 <body>
+		<header class="jumbotron">
+			<h1>Chris Brandsma</h1>
+			<span>
+				<strong>Senior Software Developer/Solution Architect</strong><br/>
+				<ul class="contact-list list-unstyled">
+					<li class="contact-item">
+						<span class='contact-title'>Email: </span>
+						<a class="contact-link" href="mailto:chris.brandsma@gmail.com">chris.brandsma@gmail.com</a>
+					</li>
+					<li class="contact-item">
+						<span class='contact-title'>Phone: </span>
+						<a class="contact-link" href="tel:208-918-6888">208-918-6888</a>
+					</li>
+					<li class="contact-item">
+						<span class='contact-title'>Linked In: </span>
+						<a class="contact-link" href="https://www.linkedin.com/in/chrisbrandsma">https://www.linkedin.com/in/chrisbrandsma</a>
+					</li>
+					<li class="contact-item">
+						<span class='contact-title'>GitHub: </span>
+						<a class="contact-link" href="https://github.com/cwbrandsma">https://github.com/cwbrandsma</a>
+					</li>
+				</ul>
+			</span>
+		</header>
 	<div class='container'>
-		<h1>Chris Brandsma</h1>
-		<span class="text-muted">
-			<strong>Senior Software Developer/Solution Architect</strong><br/>
-			<ul class="contact-list list-unstyled">
-				<li class="contact-item">
-					<span class='contact-title'>Email: </span>
-					<a class="contact-link text-muted" href="mailto:chris.brandsma@gmail.com">chris.brandsma@gmail.com</a>
-				</li>
-				<li class="contact-item">
-					<span class='contact-title'>Phone: </span>
-					<a class="contact-link text-muted" href="tel:208-918-6888">208-918-6888</a>
-				</li>
-				<li class="contact-item">
-					<span class='contact-title'>Linked In: </span>
-					<a class="contact-link text-muted" href="https://www.linkedin.com/in/chrisbrandsma">https://www.linkedin.com/in/chrisbrandsma</a>
-				</li>
-				<li class="contact-item">
-					<span class='contact-title'>GitHub: </span>
-					<a class="contact-link text-muted" href="https://github.com/cwbrandsma">https://github.com/cwbrandsma</a>
-				</li>
-			</ul>
-		</span>
 		<section>
 			<h2 class="section-title">Summary of Qualifications</h2>
 			<ul>
@@ -57,7 +69,51 @@
 				<li>Proficient with concepts and techniques like Scrum, Agile Development, Object Oriented Development, Design Patterns, Domain Driven Design (DDD), Test Driven Development (TDD), and best practices.</li>
 				<li>Skilled trainer, user group leader, and frequent speaker at user groups, code camps, and MSDN Events.</li>
 			</ul>
+		</section>		
+		<section>
+			<h2 class="section-title">Technical Summary</h2>
+			<div class="personal-tech">
+				<span class="project-tech-title">Languages</span>
+				<ul class="project-tech-list list-inline">
+					<li>C#</li>
+					<li>Java</li>
+					<li>ObjectiveC
+					<li>Javascript</li>
+					<li>HTML</li>
+					<li>CSS/LESS/SASS</li>
+					<li>SQL/T-SQL/PSQL/PL-SQL</li>
+				</ul>
+				<br/>
+				<span class="project-tech-title">Web Frameworks</span>
+				<ul class="project-tech-list list-inline">
+					<li>TomCat/Servlets</li>
+					<li>ASP.Net MVC</li>
+					<li>Nancy</li>
+					<li>Node/Express</li>
+				</ul>
+				<br/>
+				<span class="project-tech-title">Operating Systems</span>
+				<ul class="project-tech-list list-inline" >
+					<li>Apple OSX</li>
+					<li>Windows 7/8</li>
+					<li>Apple IOS</li>
+					<li>Android</li>
+					<li>Linux</li>
+				</ul>
+				<br/>
+				<span class="project-tech-title">Databases</span>
+				<ul class="project-tech-list list-inline" style="display:inline;">
+					<li>Postgres</li>
+					<li>Sql Server</li>
+					<li>MySql</li>
+					<li>Oracle</li>
+					<li>SQLite</li>
+					<li>Microsoft Analysis Services</li>
+				</ul>
+				
+			</div>
 		</section>
+
 		
 		<section>
 			<h2  class="section-title">Professional Experience</h2>
@@ -174,6 +230,9 @@
 		
 
 	</div>
+	<footer>
+		
+	</footer>
 </body>
 </html>
 
