@@ -8,18 +8,20 @@
 <style>
 	.section-title {padding-top: 4px;border-top: 1px #888 solid;color:#999;}
 	.company {}
-	.company-title {font-size:120%;}
+	.company-title {font-size:140%;}
 	.company-projects li {list-style: none;}
 	
 	.project {border-bottom: 1px #aaa dotted;margin-bottom:10px;}
 	.project-title { font-size: 120%;}	
-	.project-role { font-style:italic;float:right;}
+	.project-role { font-style:italic;float:right;color:#666;}
 	.project-desc { display: block;}
 
 	.project-tech { }
 	.project-tech-title { color: #428bca; }
 	.project-tech-list { padding-left: 0; color: #999; padding-bottom: 4px;}
-	.project-tech-list li:before { content: '✔'; margin-left: 1em; margin-right: .100em;}
+	.project-tech-list li {padding:0;}
+	.project-tech-list li:after { content: ','; margin-left: 0em; margin-right: .100em;}
+	.project-tech-list :last-child:after { content: '';}
 </style>
 </head>
 <body>
@@ -72,7 +74,7 @@
 					</li>
 					<li class="project">
 						<span class="project-title">WonderBar</span>
-						<span class="project-role">Principle developer.</span>
+						<span class="project-role">Principle developer</span>
 						<span class="project-desc">WonderBar was a multiplatform (web/desktop/mobile), multi-tenant application for delivering videos on a schedule to large groups of users.</span> 
 						<div class="project-tech">
 							<span class="project-tech-title">Project Technologies</span>:
@@ -137,6 +139,7 @@
 					</li>
 					<li class="project">
 						<span class="project-title">Scrum Cards</span> 
+						<span class="project-role">Developer/Designer/Owner</span> 
 						<span class="project-desc">IPhone/IPad app I created for agile estimating.</span>
 						<div class="project-tech">
 							<span class="project-tech-title">Project Technologies</span>:
