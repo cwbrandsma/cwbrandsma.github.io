@@ -11,7 +11,7 @@ header.header {
 	font-size: 26px;
 }
 .header .container .page-header {
-	border-bottom: 1px solid #888;
+	border-bottom: 1px solid #ccc;
 	margin-bottom: 4px;
 }
 
@@ -42,6 +42,6 @@ header.header {
 	padding-right: 10px;
 }
 
-.project .project-body h3 {
+.project  h3 {
 	margin: 0;
 }
