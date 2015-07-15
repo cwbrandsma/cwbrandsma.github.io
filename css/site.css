@@ -1,0 +1,47 @@
+body.me { background-color: #EEEEEE;}
+
+header.header {
+	padding:30px 0;
+	border-top: 10px solid #3071a9;
+	
+}
+
+.header h2 {
+	margin-top:0px;
+	font-size: 26px;
+}
+.header .container .page-header {
+	border-bottom: 1px solid #888;
+	margin-bottom: 4px;
+}
+
+.header .social .fa {
+	font-size:1.33333333em;
+}
+
+.skills {
+	font-weight: bold;
+}
+.skills li {
+	padding-bottom: 5px;
+}
+
+.project {
+	margin-bottom: 10px;
+	padding: 4px;
+	border-bottom: 1px solid #eee;
+}
+.project .project-icon {
+	padding-right: 10px;
+}
+.project .project-icon img {
+	max-width: 150px;
+}
+
+.project .project-body {
+	padding-right: 10px;
+}
+
+.project .project-body h3 {
+	margin: 0;
+}
